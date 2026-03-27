@@ -3,7 +3,7 @@
 
 int main(){
 
-    std::cout<<5 + 2<<std::endl;
+    std::cout<<10/2<<std::endl;
 
     return 0;
 }
