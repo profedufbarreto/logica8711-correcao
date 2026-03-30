@@ -2,17 +2,18 @@
 
 int main(){
 
-    int a = 8;
-    //int número inteiro
-    float b = 9.6658523210;
-    //float número de ponto flutuante ocupa 4bytes.
-    double c = 4.6;
-    //double ocupa 8bytes.
+    int a;
+    int b;
+    //int a, b;
 
+    std::cout<<"Digite um valor para A: "<<std::endl;
+    std::cin>>a;
 
-    std::cout<<a<<std::endl;
-    std::cout<<b<<std::endl;
-    std::cout<<c<<std::endl;
+    std::cout<<"Digite um valor para B: "<<std::endl;
+    std::cin>>b;
+
+    
+
 
     return 0;
 }
