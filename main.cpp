@@ -2,10 +2,15 @@
 
 int main(){
 
-    int a = 10;
+    bool condicao = true;
+    bool condicao1 = false;
+
+    std::cout<<condicao<<std::endl;
+    std::cout<<condicao1<<std::endl;
+
     
-    std::cout<<++a<<std::endl;
-    std::cout<<++a<<std::endl;
+    //g++ main.cpp -o programa
+    //./programa
 
 
     return 0;
