@@ -1,17 +1,15 @@
 #include<iostream>
+#include<string>
 
 int main(){
-
-    bool condicao = true;
-    bool condicao1 = false;
-
-    std::cout<<condicao<<std::endl;
-    std::cout<<condicao1<<std::endl;
-
     
-    //g++ main.cpp -o programa
-    //./programa
+    std::string nome;
+    std::string sobrenome = " Barreto";
 
+    std::cout<<"Digite seu nome: "<<std::endl;
+    std::cin>>nome;
+
+    std::cout<<nome.append(sobrenome);
 
     return 0;
 }
