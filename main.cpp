@@ -1,15 +1,12 @@
 #include<iostream>
-#include<string>
+#include<cmath>
 
 int main(){
     
-    std::string nome;
-    std::string sobrenome = " Barreto";
+    int a = 5;
+    int b = 3;
 
-    std::cout<<"Digite seu nome: "<<std::endl;
-    std::cin>>nome;
-
-    std::cout<<nome.append(sobrenome);
+    std::cout<<std::min(a, b)<<std::endl;
 
     return 0;
 }
