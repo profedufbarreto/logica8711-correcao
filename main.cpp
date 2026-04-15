@@ -1,14 +1,23 @@
 #include<iostream>
-#include<thread> //para lidar com o tempo de execução
-#include<chrono> // para definir unidades de tempo (ms, segundos)
 
 int main(){
 
-    for(int i = 10; i >= 0; i--){
-        std::cout<<"A bomba irá explodir em.."<<i<<std::endl;
-    }
+    int opcao;
 
-    std::this_thread::sleep_for(std::chrono::milliseconds(500));
+    std::cout<<"Digite um valor para opção: "<<std::endl;
+    std::cin>>opcao;
+
+    switch(opcao){
+        case 1:
+            std::cout<<"Domingo!"<<std::endl;
+            break;
+        case 2:
+            std::cout<<"Segunda-feira!"<<std::endl;
+            break;
+        default:
+            std::cout<<"Número inválido!"<<std::endl;
+
+    }
 
     return 0;
 }
