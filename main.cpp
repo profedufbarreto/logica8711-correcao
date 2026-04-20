@@ -1,14 +1,13 @@
 #include<iostream>
+#include<string>
 
 int main(){
 
-    int number = 9;
+    std::string carros[5] = {"Volvo", "BMW", "Ford", "Chevrolet", "Fiat"};
 
-    int myNumbers[number] = {10, 20, 30, 40, 50, 60, 70, 80, 90};
+    int tamanho = sizeof(carros) / sizeof(carros[0]);
+
+    std::cout<<tamanho<<std::endl;
     
-    for(int i = 0; i < number; i++){
-        std::cout<<myNumbers[i]<<std::endl;
-    }
-
     return 0;
 }
