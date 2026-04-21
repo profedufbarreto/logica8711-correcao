@@ -3,11 +3,12 @@
 
 int main(){
 
-    std::string carros[5] = {"Volvo", "BMW", "Ford", "Chevrolet", "Fiat"};
+    std::string letras[2][4] = {
+        {"A", "B", "C", "D"},
+        {"E", "F", "G", "H"}
+    };
 
-    int tamanho = sizeof(carros) / sizeof(carros[0]);
-
-    std::cout<<tamanho<<std::endl;
+    std::cout<<letras[1][0]<<std::endl;
     
     return 0;
 }
