@@ -1,13 +1,14 @@
 #include<iostream>
+#include<string>
+
+void minhaFuncao(std::string nome){
+    std::cout<<nome<<std::endl;
+}
 
 int main(){
 
-    for(int i = 0; i < 10; i++){
-        if(i == 4){
-            break;
-        }
-        std::cout<<i<<std::endl;
-    }
-    
+    minhaFuncao("Eduardo");
+    minhaFuncao("Nome");
+
     return 0;
 }
