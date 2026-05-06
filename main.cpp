@@ -1,17 +1,23 @@
 #include<iostream>
+#include<string>
+#include<iomanip>
+
+void exibirModalidade(){
+    std::cout<<"\n========== SENAC NH - MATRICULAS =========="<<std::endl;
+    std::cout<<"1 - Cursos presenciais"<<std::endl;
+    std::cout<<"2 - Cursos EAD"<<std::endl;
+    std::cout<<"3 - Idiomas (Libras)"<<std::endl;
+    std::cout<<"0 - Sair do Sistema"<<std::endl;
+    std::cout<<"Selecione a modalidade do curso: "<<std::endl;
+}
 
 int main(){
 
-    int num;
-    std::cout<<"Digite um valor para num: "<<std::endl;
-    std::cin>>num;
+    int modalidade = -1;
+    std::string nome, sobrenome, cep, cpf, 
 
-    if(num % 2 == 0){
-        std::cout<<num<<" é par!"<<std::endl;
-    }else{
-        std::cout<<num<<" é ímpar!!"<<std::endl;
-    }
-
+    exibirModalidade();
+    modalidade;
     
     return 0;
 }
