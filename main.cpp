@@ -1,23 +1,27 @@
 #include<iostream>
-#include<string>
-#include<iomanip>
-
-void exibirModalidade(){
-    std::cout<<"\n========== SENAC NH - MATRICULAS =========="<<std::endl;
-    std::cout<<"1 - Cursos presenciais"<<std::endl;
-    std::cout<<"2 - Cursos EAD"<<std::endl;
-    std::cout<<"3 - Idiomas (Libras)"<<std::endl;
-    std::cout<<"0 - Sair do Sistema"<<std::endl;
-    std::cout<<"Selecione a modalidade do curso: "<<std::endl;
-}
 
 int main(){
 
-    int modalidade = -1;
-    std::string nome, sobrenome, cep, cpf, 
+    int num1, num2, soma, subt, mult;
+    float div;
 
-    exibirModalidade();
-    modalidade;
-    
+    std::cout<<"Digite aqui o valor para número 1: "<<std::endl;
+    std::cin>>num1;
+
+    std::cout<<"Digite aqui o valor para número 2: "<<std::endl;
+    std::cin>>num2;
+
+
+    soma = num1 + num2;
+    subt = num1 - num2;
+    mult = num1 * num2;
+    div = num1 / num2;
+
+    std::cout<<"O resultado da soma é: "<<soma<<std::endl;
+    std::cout<<"O resultado da subtração é: "<<subt<<std::endl;
+    std::cout<<"O resultado da multiplicação é: "<<mult<<std::endl;
+    std::cout<<"O resultado da divisão é: "<<div<<std::endl;
+
+
     return 0;
 }
